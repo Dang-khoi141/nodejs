@@ -1,0 +1,32 @@
+{
+  "name": "createproject",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/Dang-khoi141/nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/Dang-khoi141/nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dang-khoi141/nodejs.git"
+  },
+  "license": "ISC",
+  "author": "khoi",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
