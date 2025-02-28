@@ -7,7 +7,6 @@ class SiteController{
     index(rep,res,next){
         demo_nodejs.find({})
             .then(courses => {
-                
                 res.render('home',{
                     courses: multipleMongooseToObject(courses)
                 })
